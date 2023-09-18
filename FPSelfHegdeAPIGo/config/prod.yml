@@ -1,0 +1,6 @@
+service:
+  name: FPSelfHegdeAPIGo
+  port: 80
+  endpoint: /FPSelfHegdeAPIGo
+
+  secret: W@?+~ffWlt/F]@9^  

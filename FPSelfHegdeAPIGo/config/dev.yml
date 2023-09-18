@@ -1,0 +1,13 @@
+service:
+  name: FPSelfHegdeAPIGo
+  port: 8080
+  domain: localhost
+  endpoint: /FPSelfHegdeAPIGo
+
+ice:
+  authenticate:
+    username: KsecAPI
+    password: Welcome1!
+    url: xxx/ipa/Api/V1/Authenticate
+
+  secret: W@?+~ffWlt/F]@9^

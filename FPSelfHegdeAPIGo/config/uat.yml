@@ -1,0 +1,6 @@
+service:
+  name: "FPSelfHegdeAPIGo"
+  port: 8080
+  endpoint: "/FPSelfHegdeAPIGo"
+
+  secret: W@?+~ffWlt/F]@9^
