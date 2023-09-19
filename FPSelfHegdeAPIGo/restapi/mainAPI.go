@@ -63,6 +63,15 @@ func (ctrl SelfHegdeController) LoadConfigFile(transID string) error {
 		ctrl.Logger.Error(transID, errMsg)
 		return err
 	}
+
+	config.SetConfigName("errorCodeConfig")
+	config.SetConfigType("yaml")
+	config.AddConfigPath("./config")
+	err = config.MergeInConfig()
+	if err != nil {
+		errMsg := "Read config file errorCodeConfig.yml occur error: " + err.Error()
+		ctrl.Logger.Error(transID, errMsg, err)
+	}
 	return err
 }
 
