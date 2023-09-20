@@ -1,0 +1,12 @@
+Spec API: http://localhost:8080/notifyMsg
+HTTP POST
+request
+{
+    "streamID" : "m2",
+    "data" : "Hello m2"
+}
+response
+{
+    "code": "0",
+    "msg": "Success"
+}

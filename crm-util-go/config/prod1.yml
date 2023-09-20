@@ -1,0 +1,12 @@
+crm:
+  cassandra:
+    cluster:
+      - "172.19.191.219"
+      - "172.19.190.34"
+      - "172.19.190.75"
+      - "172.19.248.74"
+      - "172.19.248.75"
+      - "172.19.248.76"
+    keyspace: "crm_adapter"
+    username: "crmuser"
+    password: "Sep@crm"

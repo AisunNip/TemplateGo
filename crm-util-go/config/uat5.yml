@@ -1,0 +1,9 @@
+crm:
+  cassandra:
+    cluster:
+      - "172.16.2.138"
+      - "172.16.2.139"
+      - "172.16.2.140"
+    keyspace: "crm_adapter_5"
+    username: ""
+    password: ""

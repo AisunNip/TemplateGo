@@ -1,0 +1,5 @@
+{
+  "configList" : [
+    {"path":["/MGCCBSInvoiceInfo/","/MGBillingInfo/"], "forwardURL":"https://intxgw-uat7.true.th:443", "timeoutSec":45}
+  ]
+}
